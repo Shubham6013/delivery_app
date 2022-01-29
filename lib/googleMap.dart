@@ -5,12 +5,11 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 
 double _originLatitude = 28.4595;
-// Starting point longitude
 double _originLongitude = 77.0266;
-// Destination latitude
 double _destLatitude = 28.7041;
-// Destination Longitude
 double _destLongitude = 77.1025;
+
+
 // Markers to show points on the map
 Map<MarkerId, Marker> markers = {};
 
